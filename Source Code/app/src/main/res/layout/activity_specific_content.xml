@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_specific_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecificContentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarSpecificContent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/specificContentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/notosansjp_bold"
+            android:gravity="center_vertical"
+            android:text="Reference Book"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/comic_neue_bold_italic"
+        android:text="Binary Search Tree"
+        android:textColor="#4A148C"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSpecificContent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/appTheme"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/notosansjp_thin"
+            android:text="@string/Name"
+            android:textColor="#4527A0"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#D32F2F"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutVec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/googleVec"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_google_content"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/ytVec"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_youtube_vec"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/notesVec"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/note_vec"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/codeVec"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/code_vec"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#D32F2F"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutVec" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visButton"
+        android:backgroundTint="@color/appTheme"
+        android:drawableLeft="@drawable/ic_visualization_eye"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_light"
+        android:text="visualization"
+        android:textColor="#4527A0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

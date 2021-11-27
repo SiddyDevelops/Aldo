@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_resources"
+    android:background="@color/white_shade"
+    tools:context=".ResourcesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarResources"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="RESOURCES"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/notosansjp_bold"
+            android:gravity="center_vertical"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="center"
+        android:text="Improve your technical skills today with these courses. Prepare yourself for all kinds of interviews."
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarResources" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="649dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ir.alirezabdn.wp7progress.WP10ProgressBar
+            android:id="@+id/progressBarRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:indicatorRadius="8"
+            app:interval="100" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/resources_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.ramotion.circlemenu.CircleMenuView
+            android:id="@+id/circular_menu_resources"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="200dp"
+            app:button_colors="@array/colors"
+            app:button_icons="@array/icons" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

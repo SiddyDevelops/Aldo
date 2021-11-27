@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "394725993564",
+    "project_id": "aldo-b869f",
+    "storage_bucket": "aldo-b869f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394725993564:android:42df41d36ec0ed6c358a99",
+        "android_client_info": {
+          "package_name": "com.siddydevelops.aldo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394725993564-he3ns91n7inbffvchdtk3vthn8fvgs51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siddydevelops.aldo",
+            "certificate_hash": "3a79e7cdd97662746c15a80c81b4721c0f228e20"
+          }
+        },
+        {
+          "client_id": "394725993564-8cjortfrdc78a70suji0ar3t0qs34pvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXDLZXvoP5Hqo0QJbQM0Ae4qDPlltA7zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394725993564-8cjortfrdc78a70suji0ar3t0qs34pvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/layout_referenceBooks"
+    tools:context=".ReferenceBookActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRefBooks"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="REFERENCE BOOKS"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/notosansjp_bold"
+            android:gravity="center_vertical"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/headTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="center"
+        android:text="Here are some of the most popular books widely used by programmers around the world."
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarRefBooks" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="650dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headTextView"
+        app:cardCornerRadius="20dp"
+        android:elevation="10dp"
+        android:backgroundTint="@color/white_shade">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ir.alirezabdn.wp7progress.WP10ProgressBar
+                android:id="@+id/progressBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:indicatorRadius="8"
+                app:interval="100" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/refBookRecyclerView"
+                android:layout_width="378dp"
+                android:layout_height="600dp"
+                android:layout_gravity="center" />
+
+            <com.ramotion.circlemenu.CircleMenuView
+                android:id="@+id/circular_menu_refBooks"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="200dp"
+                app:button_colors="@array/colors"
+                app:button_icons="@array/icons" />
+
+        </FrameLayout>
+
+
+        
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

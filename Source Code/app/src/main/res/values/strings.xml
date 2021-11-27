@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aldo</string>
+
+    <string name="bookdes_buffer">Data Structures Using C has been developed to provide a comprehensive and consistent coverage of both the abstract concepts of data structures as well as the implementation of these concepts using C language. It begins with a thorough overview of the concepts of C programming followed by introduction of different data structures and methods to analyse the complexity of different algorithms. It then connects these concepts and applies them to the study of various data structures such as arrays, strings, linked lists, stacks, queues, trees, heaps, and graphs.</string>
+
+    <string name="code_buffer">\n</string>
+    <string name="question_buffer">How do you prove that the two strings are anagrams?</string>
+    <string name="Name">A binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure whose internal nodes each store a key greater than all the keys in the nodes left subtree and less than those in its right subtree. A binary tree is a type of data structure for storing data such as numbers in an organized way. Binary search trees allow binary search for fast lookup, addition and removal of data items, and can be used to implement dynamic sets and lookup tables.</string>
+
+    <string name="AboutUs">This App has been designed and developed by Siddharth Singh. NO Copyrights are intended.</string>
+
+</resources>

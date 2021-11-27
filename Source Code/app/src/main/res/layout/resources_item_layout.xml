@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/white_shade">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#DDE1F3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/resource_imageView"
+                android:layout_width="131dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dsa_buffer"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.32" />
+
+            <TextView
+                android:id="@+id/courseName"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="Data Structures And Algorithm"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/resource_imageView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toEndOf="@+id/resource_imageView"
+                app:layout_constraintTop_toBottomOf="@+id/courseName">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instructor: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/instructor"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/script_bold"
+                    android:text="Sandeep Jain"
+                    android:textColor="#59C61E"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="237dp"
+                    tools:layout_editor_absoluteY="55dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toEndOf="@+id/resource_imageView"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Platform: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/platform"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Geek For Geeks"
+                    android:fontFamily="@font/dosis_semi_bold"
+                    android:textColor="#F13131"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toEndOf="@+id/resource_imageView"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price"
+                    android:layout_marginStart="5dp"
+                    android:text="₹ 2799"
+                    android:fontFamily="@font/dosis_semi_bold"
+                    android:textColor="#214CDF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/f_or_paid"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="128dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/home_buttons_bg"
+                android:backgroundTint="@color/purple_shade"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="PAID"
+                android:textColor="#2A00A2"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.954"
+                app:layout_constraintStart_toEndOf="@+id/resource_imageView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/link"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:text="https://practice.geeksforgeeks.org/courses/dsa-self-paced"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/resource_imageView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
