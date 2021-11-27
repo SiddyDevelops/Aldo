@@ -55,7 +55,7 @@ public class YoutubePlayerActivity extends YouTubeBaseActivity {
             }
         };
 
-        youTubePlayerView.initialize("AIzaSyD7_eOLXoOJJ9-utgH99tDcfvarBuPyC1U", onInitializedListener);
+        youTubePlayerView.initialize("AIzaSyD7_*********************PyC1U", onInitializedListener);
 
     }
 }
