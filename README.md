@@ -6,7 +6,7 @@
 # Aldo
 > ALDO is a free education app for the young programmers who are desiring to master the concepts of Data Structure and Algorithms. ALDO offers practice exercises, instructional videos from various sources, reference books, code for every data structure and algorithm, and the visualization tool that empower learners to visualize each concept and helps them understand in a better way.
 
-## 🤔 What can you do with App Bricks ?
+## 🤔 What can you do with Aldo ?
 
 <p align="center">
   <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143728945-4bbf3c34-8b6d-4b10-9fa4-50f8d0cb0e84.jpg">
@@ -23,6 +23,7 @@ The main features of the app are:
 - Reference material: The application provides downloadable pdfs of some famous books and various online sources for guidance and self-learning.
 - Visualization tool: The stand out feature of the application is that it comes up with the visualization tool that empower learners to visualize the concept of data structure and understand in a way like never before. The user can create their own data structures for different insertion, deletion and creation.
 - Online Courses: The app also recommends various free as well as paid online courses where learners can get personal guidance from top instructors with interactive Q&A sessions, live tests and much more.
+
 
 <p align="center">
   <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729519-3f8fbf61-b1ef-436f-8d65-d6d0cf30f9a4.jpg">
