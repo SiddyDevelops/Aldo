@@ -9,11 +9,11 @@
 ## 🤔 What can you do with Aldo ?
 
 <p align="center">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143728945-4bbf3c34-8b6d-4b10-9fa4-50f8d0cb0e84.jpg">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143728943-d34a653a-37df-4e45-97a7-ccea4f54d8fa.jpg">  
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143728863-7519bac6-afc1-4a1e-a0a7-ef8b4bc50ba6.jpg">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729194-011d4662-d641-4556-9461-d2938f960e5a.jpg">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729113-66f14979-a0e5-4286-99da-93aec94398f0.jpg">  
+  <img width="170" height="375" src="https://user-images.githubusercontent.com/72121163/143728945-4bbf3c34-8b6d-4b10-9fa4-50f8d0cb0e84.jpg">
+  <img width="170" height="375" src="https://user-images.githubusercontent.com/72121163/143728943-d34a653a-37df-4e45-97a7-ccea4f54d8fa.jpg">  
+  <img width="170" height="375" src="https://user-images.githubusercontent.com/72121163/143728863-7519bac6-afc1-4a1e-a0a7-ef8b4bc50ba6.jpg">
+  <img width="170" height="375" src="https://user-images.githubusercontent.com/72121163/143729194-011d4662-d641-4556-9461-d2938f960e5a.jpg">
+  <img width="170" height="375" src="https://user-images.githubusercontent.com/72121163/143729113-66f14979-a0e5-4286-99da-93aec94398f0.jpg">  
 </p>
 
 The main features of the app are:
