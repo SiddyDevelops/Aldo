@@ -17,12 +17,12 @@
 </p>
 
 The main features of the app are:
-- Practice exercise: The application provides the learners with a question bank for every topic with the solution attached at the end. This helps students to come across almost every type of question that have been asked whether in an interview or in the university examination.
-- Instructional videos: Get to learn from the top instructors who have helped thousands of students in understanding the concepts of DSA. The application comes up with various video lectures of expert from free sources like YouTube and other online sources.
-- Code: ‘Talk is cheap, show me the code’. ALDO offers code for every concept along with the explanation. This helps learner to get an experience of the approach followed and how to convert the algorithm into a working code.
-- Reference material: The application provides downloadable pdfs of some famous books and various online sources for guidance and self-learning.
-- Visualization tool: The stand out feature of the application is that it comes up with the visualization tool that empower learners to visualize the concept of data structure and understand in a way like never before. The user can create their own data structures for different insertion, deletion and creation.
-- Online Courses: The app also recommends various free as well as paid online courses where learners can get personal guidance from top instructors with interactive Q&A sessions, live tests and much more.
+- **Practice exercise:** The application provides the learners with a question bank for every topic with the solution attached at the end. This helps students to come across almost every type of question that have been asked whether in an interview or in the university examination.
+- **Instructional videos:** Get to learn from the top instructors who have helped thousands of students in understanding the concepts of DSA. The application comes up with various video lectures of expert from free sources like YouTube and other online sources.
+- **Code:** ‘Talk is cheap, show me the code’. ALDO offers code for every concept along with the explanation. This helps learner to get an experience of the approach followed and how to convert the algorithm into a working code.
+- **Reference material:** The application provides downloadable pdfs of some famous books and various online sources for guidance and self-learning.
+- **Visualization tool:** The stand out feature of the application is that it comes up with the visualization tool that empower learners to visualize the concept of data structure and understand in a way like never before. The user can create their own data structures for different insertion, deletion and creation.
+- **Online Courses:** The app also recommends various free as well as paid online courses where learners can get personal guidance from top instructors with interactive Q&A sessions, live tests and much more.
 
 
 <p align="center">
