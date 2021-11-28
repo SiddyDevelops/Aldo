@@ -26,11 +26,11 @@ The main features of the app are:
 
 
 <p align="center">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729519-3f8fbf61-b1ef-436f-8d65-d6d0cf30f9a4.jpg">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729328-36bd63d1-2f68-4c53-b424-d58732677853.jpg">  
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729327-e35302ef-de55-4712-acc2-4d65871d4bb4.jpg">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729316-78668133-b1de-4915-9aca-0f8a186adc6c.jpg">
-  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729313-477ea87d-7ad6-43fc-899d-3322a2e5ea37.jpg">  
+  <img width="160" height="375" src="https://user-images.githubusercontent.com/72121163/143729519-3f8fbf61-b1ef-436f-8d65-d6d0cf30f9a4.jpg">
+  <img width="160" height="375" src="https://user-images.githubusercontent.com/72121163/143729328-36bd63d1-2f68-4c53-b424-d58732677853.jpg">  
+  <img width="160" height="375" src="https://user-images.githubusercontent.com/72121163/143729327-e35302ef-de55-4712-acc2-4d65871d4bb4.jpg">
+  <img width="160" height="375" src="https://user-images.githubusercontent.com/72121163/143729316-78668133-b1de-4915-9aca-0f8a186adc6c.jpg">
+  <img width="160" height="375" src="https://user-images.githubusercontent.com/72121163/143729313-477ea87d-7ad6-43fc-899d-3322a2e5ea37.jpg">  
 </p>
 
 ## ⚛ Demo:
