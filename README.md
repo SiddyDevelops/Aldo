@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img height=200px src="https://user-images.githubusercontent.com/72121163/143727690-994aafa5-4d84-47cc-94a3-953877826f90.png" />
+  <img height=200px src="https://user-images.githubusercontent.com/72121163/143729733-104f06c3-0f32-42be-8141-c85efa481498.png" />
 <p/>
 
 # Aldo
@@ -9,11 +9,11 @@
 ## 🤔 What can you do with Aldo ?
 
 <p align="center">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143728945-4bbf3c34-8b6d-4b10-9fa4-50f8d0cb0e84.jpg">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143728943-d34a653a-37df-4e45-97a7-ccea4f54d8fa.jpg">  
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143728863-7519bac6-afc1-4a1e-a0a7-ef8b4bc50ba6.jpg">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729194-011d4662-d641-4556-9461-d2938f960e5a.jpg">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729113-66f14979-a0e5-4286-99da-93aec94398f0.jpg">  
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143728945-4bbf3c34-8b6d-4b10-9fa4-50f8d0cb0e84.jpg">
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143728943-d34a653a-37df-4e45-97a7-ccea4f54d8fa.jpg">  
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143728863-7519bac6-afc1-4a1e-a0a7-ef8b4bc50ba6.jpg">
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729194-011d4662-d641-4556-9461-d2938f960e5a.jpg">
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729113-66f14979-a0e5-4286-99da-93aec94398f0.jpg">  
 </p>
 
 The main features of the app are:
@@ -26,11 +26,11 @@ The main features of the app are:
 
 
 <p align="center">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729519-3f8fbf61-b1ef-436f-8d65-d6d0cf30f9a4.jpg">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729328-36bd63d1-2f68-4c53-b424-d58732677853.jpg">  
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729327-e35302ef-de55-4712-acc2-4d65871d4bb4.jpg">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729316-78668133-b1de-4915-9aca-0f8a186adc6c.jpg">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729313-477ea87d-7ad6-43fc-899d-3322a2e5ea37.jpg">  
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729519-3f8fbf61-b1ef-436f-8d65-d6d0cf30f9a4.jpg">
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729328-36bd63d1-2f68-4c53-b424-d58732677853.jpg">  
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729327-e35302ef-de55-4712-acc2-4d65871d4bb4.jpg">
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729316-78668133-b1de-4915-9aca-0f8a186adc6c.jpg">
+  <img width="175" height="375" src="https://user-images.githubusercontent.com/72121163/143729313-477ea87d-7ad6-43fc-899d-3322a2e5ea37.jpg">  
 </p>
 
 ## ⚛ Demo:
