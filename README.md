@@ -16,7 +16,7 @@
   <img width="160" height="375" src="https://user-images.githubusercontent.com/72121163/143729113-66f14979-a0e5-4286-99da-93aec94398f0.jpg">  
 </p>
 
-The main features of the app are:
+***The main features of the app are:***
 - **Practice exercise:** The application provides the learners with a question bank for every topic with the solution attached at the end. This helps students to come across almost every type of question that have been asked whether in an interview or in the university examination.
 - **Instructional videos:** Get to learn from the top instructors who have helped thousands of students in understanding the concepts of DSA. The application comes up with various video lectures of expert from free sources like YouTube and other online sources.
 - **Code:** ‘Talk is cheap, show me the code’. ALDO offers code for every concept along with the explanation. This helps learner to get an experience of the approach followed and how to convert the algorithm into a working code.
