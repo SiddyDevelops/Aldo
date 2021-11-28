@@ -25,7 +25,7 @@ The main features of the app are:
 - Online Courses: The app also recommends various free as well as paid online courses where learners can get personal guidance from top instructors with interactive Q&A sessions, live tests and much more.
 
 <p align="center">
-  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729401-8d5aa25b-ef01-475a-b91e-058131541a7c.jpg">
+  <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729519-3f8fbf61-b1ef-436f-8d65-d6d0cf30f9a4.jpg">
   <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729328-36bd63d1-2f68-4c53-b424-d58732677853.jpg">  
   <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729327-e35302ef-de55-4712-acc2-4d65871d4bb4.jpg">
   <img width="150" height="350" src="https://user-images.githubusercontent.com/72121163/143729316-78668133-b1de-4915-9aca-0f8a186adc6c.jpg">
